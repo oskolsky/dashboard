@@ -1,0 +1,229 @@
+{
+    "date": "2018-11-19T10:18:27.5601177+03:00",
+    "home": 14.1,
+    "plan": 90.9,
+    "unprocessed_orders": 14,
+    "missed_calls": 2,
+    "members": [
+        {
+            "name": "1 Павлов Никита",
+            "value": 1,
+            "rate": 40
+        },
+        {
+            "name": "2 Закамсков Максим",
+            "value": 10,
+            "rate": 10
+        },
+        {
+            "name": "3 Горожанкина Юлия",
+            "value": 100,
+            "rate": 30
+        },
+        {
+            "name": "4 Величко Марина",
+            "value": 1000,
+            "rate": 20
+        },
+        {
+            "name": "5 Осипенко Оксана",
+            "value": 10000,
+            "rate": 60
+        },
+        {
+            "name": "6 Павлов Никита",
+            "value": 100000,
+            "rate": 30
+        },
+        {
+            "name": "7 Закамсков Максим",
+            "value": 1000000,
+            "rate": 90
+        },
+        {
+            "name": "8 Горожанкина Юлия",
+            "value": 10000000,
+            "rate": 100
+        },
+        {
+            "name": "9 Величко Марина",
+            "value": 10000000,
+            "rate": 10
+        },
+        {
+            "name": "10 Осипенко Оксана",
+            "value": 100000000,
+            "rate": 74
+        },
+        {
+            "name": "11 Павлов Никита",
+            "value": 1200000,
+            "rate": 81
+        },
+        {
+            "name": "12 Закамсков Максим",
+            "value": 49000,
+            "rate": 41
+        },
+        {
+            "name": "13 Горожанкина Юлия",
+            "value": 21000,
+            "rate": 52
+        },
+        {
+            "name": "14 Величко Марина",
+            "value": 1200000,
+            "rate": 79
+        },
+        {
+            "name": "15 Осипенко Оксана",
+            "value": 1200000,
+            "rate": 74
+        },
+        {
+            "name": "16 Павлов Никита",
+            "value": 1200000,
+            "rate": 81
+        }
+    ],
+    "status": {
+        "date": "c 1 по 25 февраля",
+        "new": 251,
+        "open": 563,
+        "delivery": 123,
+        "pending": 36
+    },
+    "block1": {
+        "title": "Лучший по V601",
+        "date": "до 24 апреля",
+        "icon": "Руб",
+        "members": [
+            {
+                "name": "Павлов Никита",
+                "value1": 63251,
+                "type": "positive"
+            },
+            {
+                "name": "Величко Марина",
+                "value1": 56021,
+                "type": "negative"
+            },
+            {
+                "name": "Осипенко Оксана",
+                "value1": 56021,
+                "type": "negative"
+            },
+            {
+                "name": "Васильев Сергей",
+                "value1": 23201,
+                "type": "negative"
+            },
+            {
+                "name": "Закамсков Максим",
+                "value1": 2324,
+                "type": "negative"
+            }
+        ]
+    },
+    "block2": {
+        "title": "Конверсия входящих звонков",
+        "date": null,
+        "icon": "%",
+        "members": [
+            {
+                "name": "Павлов Никита",
+                "value1": 51,
+                "type": "positive"
+            },
+            {
+                "name": "Величко Марина",
+                "value1": 21,
+                "type": "positive"
+            },
+            {
+                "name": "Осипенко Оксана",
+                "value1": 7,
+                "type": "positive"
+            },
+            {
+                "name": "Васильев Сергей",
+                "value1": 5,
+                "type": "negative"
+            },
+            {
+                "name": "Закамсков Максим",
+                "value1": 2,
+                "type": "negative"
+            }
+        ]
+    },
+    "block3": {
+        "title": "Средний чек / Позиции в чеке",
+        "date": null,
+        "icon": "Руб / Шт",
+        "members": [
+            {
+                "name": "Павлов Никита",
+                "value1": 63251,
+                "value2": 15.1,
+                "type": "positive"
+            },
+            {
+                "name": "Величко Марина",
+                "value1": 58251,
+                "value2": 9.5,
+                "type": "positive"
+            },
+            {
+                "name": "Осипенко Оксана",
+                "value1": 54021,
+                "value2": 6.6,
+                "type": "positive"
+            },
+            {
+                "name": "Васильев Сергей",
+                "value1": 23201,
+                "value2": 3.7,
+                "type": "negative"
+            },
+            {
+                "name": "Закамсков Максим",
+                "value1": 2324,
+                "value2": 1.72,
+                "type": "negative"
+            }
+        ]
+    },
+    "block4": {
+        "title": "Доля самовывоза",
+        "date": null,
+        "icon": "%",
+        "members": [
+            {
+                "name": "Павлов Никита",
+                "value1": 51,
+                "type": "positive"
+            },
+            {
+                "name": "Величко Марина",
+                "value1": 21,
+                "type": "positive"
+            },
+            {
+                "name": "Осипенко Оксана",
+                "value1": 7,
+                "type": "positive"
+            },
+            {
+                "name": "Васильев Сергей",
+                "value1": 5,
+                "type": "negative"
+            },
+            {
+                "name": "Закамсков Максим",
+                "value1": 2,
+                "type": "negative"
+            }
+        ]
+    }
+}

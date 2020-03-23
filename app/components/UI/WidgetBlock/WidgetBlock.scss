@@ -1,0 +1,22 @@
+.base {
+    // Logic block
+}
+
+.table {
+    width: 100%;
+}
+
+.tr {
+    border-top: 1px solid rgba(114, 102, 98, .5);
+}
+
+.td {
+    padding: 1.5rem 3rem;
+    vertical-align: middle;
+}
+
+.points {
+    padding: 0 0 0 2rem;
+    text-align: right;
+    white-space: nowrap;
+}

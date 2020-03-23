@@ -1,0 +1,127 @@
+.base {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 7rem 3rem 0;
+    background: #26211e;
+
+    &.isErrored {
+        padding: 50rem 0;
+        color: #fff;
+        font-size: 3rem;
+        line-height: 6rem;
+        text-align: center;
+    }
+}
+
+.link {
+    font-size: 2rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    top: 2.7rem;
+    left: 5rem;
+    width: 8.8rem;
+    height: 1.8rem;
+    background: url('./images/dashboard-bork-logo.png') center no-repeat;
+    background-size: cover;
+}
+
+.clock {
+    position: absolute;
+    top: 2.7rem;
+    right: 5rem;
+}
+
+.inner {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.column {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+
+    &:first-child {
+        padding-right: 1rem;
+    }
+
+    &:last-child {
+        padding-left: 1rem;
+    }
+}
+
+.cell {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+
+    &__type-1 {
+        width: 50%;
+        height: 21rem;
+        padding: 0 1rem 2rem 0;
+    }
+
+    &__type-2 {
+        width: 50%;
+        height: 21rem;
+        padding: 0 0 2rem 1rem;
+    }
+
+    &__type-3 {
+        width: 100%;
+        height: 81rem;
+    }
+
+    &__type-4 {
+        width: 50%;
+        height: 36rem;
+        padding: 0 1rem 2rem 0;
+    }
+
+    &__type-5 {
+        width: 50%;
+        height: 36rem;
+        padding: 0 0 2rem 1rem;
+    }
+
+    &__type-6 {
+        width: 50%;
+        height: 36rem;
+        padding: 0 1rem 2rem 0;
+    }
+
+    &__type-7 {
+        width: 50%;
+        height: 36rem;
+        padding: 0 0 2rem 1rem;
+    }
+
+    &__type-8 {
+        width: 50%;
+        height: 30rem;
+        padding: 0 1rem 0 0;
+    }
+
+    &__type-9 {
+        width: 50%;
+        height: 30rem;
+        padding: 0 0 0 1rem;
+    }
+}
+
+.borkHome {
+    display: inline-block;
+    width: 14.1rem;
+    height: 1.4rem;
+    background: url('./images/dashboard-bork-home.png') center no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}

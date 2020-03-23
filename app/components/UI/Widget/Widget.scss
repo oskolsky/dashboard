@@ -1,0 +1,68 @@
+.base {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1.2rem;
+    background-color: #3a3330;
+}
+
+.header {
+    position: relative;
+    box-sizing: border-box;
+    padding: 2.5rem 2.5rem 2rem;
+    overflow: hidden;
+    border-radius: 1.2rem 1.2rem 0 0;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: .05em;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin: 0 0 0 1.5rem;
+    padding: 0 0 0 1.5rem;
+    color: #726662;
+    font-weight: 400;
+    text-align: right;
+    text-transform: lowercase;
+
+    &::after {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 1px;
+        height: 2rem;
+        margin: -1rem 0 0 0;
+        background-color: #726662;
+        content: '';
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 2.5rem;
+    right: 3rem;
+    color: #726662;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.body {
+    display: table;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0 0 1.2rem 1.2rem;
+}

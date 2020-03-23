@@ -1,0 +1,14 @@
+.eslintcache
+.sass-cache
+.DS_Store
+.idea
+.history
+
+npm-debug.log
+package-lock.json
+
+node_modules
+
+dist
+dist.zip
+*.zip

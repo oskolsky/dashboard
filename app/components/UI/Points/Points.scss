@@ -1,0 +1,20 @@
+.base {
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    vertical-align: top;
+
+    & + .base::before {
+        padding: 0 1rem;
+        content: '/';
+    }
+
+    &__positive {
+        color: #b4e186;
+    }
+
+    &__negative {
+        color: #d54642;
+    }
+}

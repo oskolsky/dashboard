@@ -1,0 +1,35 @@
+.base {
+    position: relative;
+    padding: 5rem 0 0;
+
+    &::before {
+        position: absolute;
+        top: 2rem;
+        bottom: 5rem;
+        left: 50%;
+        width: 1px;
+        background-color: rgba(114, 102, 98, .5);
+        content: '';
+    }
+}
+
+.unprocessedOrders,
+.missedCalls {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.value {
+    margin: 0 0 1rem;
+    color: #fff;
+    font-size: 6rem;
+}
+
+.caption {
+    color: #726662;
+    font-size: 2rem;
+    line-height: 3rem;
+}
